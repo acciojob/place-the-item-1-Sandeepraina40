@@ -1,19 +1,16 @@
-
-/* Your CSS Code here. */
 .holder {
   display: flex;
-  flex-wrap: wrap; /* Allows items to move to next row */
-  justify-content: space-between; /* Ensures space between items, first and last touch edges */
-  align-items: center; /* Optional: vertically center if needed */
+  flex-wrap: wrap;
+  justify-content: space-between;
   width: 100vw;
   min-height: 100vh;
-  padding: 10px; /* Optional: spacing inside container */
   box-sizing: border-box;
+  padding: 10px;
 }
 
 .item {
-  width: 150px; /* or any fixed width */
+  width: 150px;
   height: 100px;
-  background-color: lightblue;
-  margin-bottom: 10px; /* space between rows */
+  background-color: tomato;
+  margin-bottom: 10px;
 }
